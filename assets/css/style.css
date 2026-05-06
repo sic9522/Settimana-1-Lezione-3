@@ -97,7 +97,6 @@ label, h2 {
     color: white;
     background-color: rgb(1, 1, 204);
     font-size: 20px;
-    
 }
 
 #contatti {
@@ -106,4 +105,8 @@ label, h2 {
 
 #contatti p a:link, #contatti p a:visited {
     color: rgb(202, 250, 250);
+}
+
+input:focus {
+    background-color: lightgray;
 }
