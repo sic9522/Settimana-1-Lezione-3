@@ -1,0 +1,109 @@
+body {
+    font-family:Helvetica, Arial, sans-serif;
+    line-height: 1.7;
+    margin: 0px;
+}
+
+main, aside, .footer {
+    margin: 15px 0 0px 15px;
+}
+
+#site-header {
+    background-image: url("https://static8.depositphotos.com/1370441/858/i/600/depositphotos_8582958-stock-photo-amazing-landscape-beautiful-mountain-sunset.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    
+    
+}
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+td, th {
+    border: 2px solid black;
+}
+
+caption {
+    border: 2px solid black;
+    border-bottom: 1px solid black;
+}
+
+label {
+    font-style: italic;
+    font-weight: bold;
+}
+
+h1 {
+    color: yellow;
+    margin: 0px;
+}
+
+#site-header p {
+    color: red;
+    margin: 0px;
+}
+
+#site-header ul {
+    margin: 0px;
+}
+
+nav ul li a:link, nav ul li a:visited {
+    background-color: rgb(165, 164, 164);
+    color: rgb(202, 250, 250);
+}
+
+#site-header a:hover {
+    color: black;
+}
+
+nav ul  {
+    list-style: none;
+}
+
+footer {
+    background-color: rgb(0, 0, 78);
+    text-align: center;
+}
+
+#competenze li:nth-child(odd) {
+    background-color: aliceblue;
+    display: inline-block;
+}
+
+#competenze li:first-of-type {
+    font-weight: bold;
+}
+
+.paginaRicetta {
+    background-color: hsl(55, 96%, 96%);
+    
+}
+
+label, h2 {
+    color: rgb(1, 1, 204);
+}
+
+.testo-sudime {
+    text-align: center;
+}
+
+.articleSuDiMe {
+    display: flex;
+}
+
+#sendForm {
+    color: white;
+    background-color: rgb(1, 1, 204);
+    font-size: 20px;
+    
+}
+
+#contatti {
+    color: wheat;
+}
+
+#contatti p a:link, #contatti p a:visited {
+    color: rgb(202, 250, 250);
+}
